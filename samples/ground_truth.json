@@ -1,0 +1,18 @@
+{
+  "expected_findings": [
+    {
+      "host": "192.168.1.10",
+      "port": 22,
+      "service": "ssh",
+      "min_severity": "low",
+      "expected_cves": []
+    },
+    {
+      "host": "192.168.1.10",
+      "port": 80,
+      "service": "http",
+      "min_severity": "low",
+      "expected_cves": []
+    }
+  ]
+}
